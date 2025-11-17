@@ -1,0 +1,578 @@
+[
+  {
+    "id": "deposit_golden_acorn",
+    "name": "Вклад «Золотой Жёлудь»",
+    "type": "deposit",
+    "min_amount": 10000,
+    "max_amount": 500000,
+    "term_months": 6,
+    "interest_rate": 12.5,
+    "currency": "золотых",
+    "description": "Надёжный вклад для приумножения сбережений без риска.",
+    "text": "Вклад «Золотой Жёлудь» — надёжный вклад для тех, кто хочет приумножить сбережения без риска. Ставка 12.5% годовых, срок 6 месяцев, сумма от 10 000 до 500 000 золотых.",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": null,
+      "min_income": null,
+      "citizenship_allowed": ["Великое Княжество", "Шамаханское царство"]
+    }
+  },
+  {
+    "id": "savings_pouch",
+    "name": "Сберегательная Котомка",
+    "type": "savings",
+    "min_amount": 1000,
+    "max_amount": 100000,
+    "term_months": 0,
+    "interest_rate": 8.0,
+    "currency": "золотых",
+    "description": "Гибкий счёт для накоплений с возможностью пополнения и снятия в любой момент.",
+    "text": "Сберегательная Котомка — гибкий счёт с ежемесячной капитализацией. Можно пополнять и снимать в любой момент. Ставка 8% годовых, минимальный взнос — 1000 золотых.",
+    "eligibility": {
+      "min_age": 14,
+      "max_age": null,
+      "min_income": null,
+      "citizenship_allowed": ["Великое Княжество", "Шамаханское царство", "Лесное Ханство"]
+    }
+  },
+  {
+    "id": "knight_loan",
+    "name": "Кредит «Рыцарский Долг»",
+    "type": "loan",
+    "min_amount": 50000,
+    "max_amount": 500000,
+    "term_months": 24,
+    "interest_rate": 16.0,
+    "currency": "золотых",
+    "description": "Кредит для настоящих героев — на покупку коня, доспехов или строительство терема.",
+    "text": "Кредит «Рыцарский Долг» — для настоящих героев. На покупку коня, доспехов или строительство терема. Ставка 16% годовых, срок 24 месяца, сумма от 50 000 до 500 000 золотых.",
+    "eligibility": {
+      "min_age": 21,
+      "max_age": null,
+      "min_income": 40000,
+      "citizenship_allowed": ["Великое Княжество"]
+    }
+  },
+  {
+    "id": "dragon_business_account",
+    "name": "Бизнес-счёт «Драконий Клад»",
+    "type": "business",
+    "min_amount": 0,
+    "max_amount": null,
+    "term_months": 0,
+    "interest_rate": 5.0,
+    "currency": "золотых",
+    "description": "Счёт для предпринимателей: школ драконят, лавок трав и онлайн-магазинов оберегов.",
+    "text": "Бизнес-счёт «Драконий Клад» — для предпринимателей: школ драконят, лавок трав и онлайн-магазинов оберегов. Ставка 5% годовых, без ограничений на сумму.",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": null,
+      "min_income": null,
+      "citizenship_allowed": ["Великое Княжество", "Шамаханское царство"]
+    }
+  },
+  {
+    "id": "phoenix_invest",
+    "name": "Инвестиции «Феникс»",
+    "type": "investment",
+    "min_amount": 100000,
+    "max_amount": null,
+    "term_months": 12,
+    "interest_rate": 22.0,
+    "currency": "золотых",
+    "description": "Высокодоходные инвестиции с возможностью восстановления после убытков.",
+    "text": "Инвестиции «Феникс» — высокодоходные с возможностью восстановления после убытков. Ставка 22% годовых, срок 12 месяцев, минимальная сумма — 100 000 золотых.",
+    "eligibility": {
+      "min_age": 25,
+      "max_age": null,
+      "min_income": 70000,
+      "citizenship_allowed": ["Великое Княжество", "Шамаханское царство"]
+    }
+  },
+  {
+    "id": "griffin_savings_plus",
+    "name": "Вклад «Грифон+»",
+    "type": "deposit",
+    "min_amount": 200000,
+    "max_amount": 2000000,
+    "term_months": 12,
+    "interest_rate": 14.5,
+    "currency": "золотых",
+    "description": "Премиальный вклад для тех, кто уже накопил солидный капитал.",
+    "text": "Вклад «Грифон+» — премиальный вклад для тех, кто уже накопил солидный капитал. Ставка 14.5% годовых, срок 12 месяцев, сумма от 200 000 до 2 000 000 золотых.",
+    "eligibility": {
+      "min_age": 30,
+      "max_age": null,
+      "min_income": 80000,
+      "citizenship_allowed": ["Великое Княжество", "Шамаханское царство"]
+    }
+  },
+  {
+    "id": "streamer_sub",
+    "name": "Подписка «Стримерская Удача»",
+    "type": "subscription",
+    "min_amount": 999,
+    "max_amount": 999,
+    "term_months": 1,
+    "interest_rate": 0,
+    "currency": "золотых",
+    "description": "Подписка для самозанятых стримеров: налоговый вычет и бонусы за стримы.",
+    "text": "Подписка «Стримерская Удача» — ежемесячная для самозанятых: налоговый вычет + бонусы за стримы. Стоимость — 999 золотых в месяц.",
+    "eligibility": {
+      "min_age": 12,
+      "max_age": null,
+      "min_income": null,
+      "citizenship_allowed": ["Великое Княжество"]
+    }
+  },
+  {
+    "id": "pension_acorn",
+    "name": "Пенсионный «Жёлудь Мудрости»",
+    "type": "pension",
+    "min_amount": 5000,
+    "max_amount": 50000,
+    "term_months": 0,
+    "interest_rate": 10.0,
+    "currency": "золотых",
+    "description": "Специальный счёт для почтенных жителей Княжества старше 60 лет.",
+    "text": "Пенсионный «Жёлудь Мудрости» — специальный счёт для почтенных жителей Княжества старше 60 лет. Ставка 10% годовых, сумма от 5 000 до 50 000 золотых.",
+    "eligibility": {
+      "min_age": 60,
+      "max_age": null,
+      "min_income": null,
+      "citizenship_allowed": ["Великое Княжество"]
+    }
+  },
+  {
+    "id": "travel_savings_maldives",
+    "name": "Целевой счёт «Мальдивы Мечты»",
+    "type": "goal_savings",
+    "min_amount": 5000,
+    "max_amount": 300000,
+    "term_months": 6,
+    "interest_rate": 9.0,
+    "currency": "золотых",
+    "description": "Целевой счёт для накоплений на поездку мечты — с повышенной ставкой.",
+    "text": "Целевой счёт «Мальдивы Мечты» — копите на поездку мечты с повышенной ставкой и напоминаниями от Княжеского попугая. Ставка 9% годовых, срок 6 месяцев.",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": null,
+      "min_income": null,
+      "citizenship_allowed": ["Великое Княжество", "Шамаханское царство"]
+    }
+  },
+  {
+    "id": "young_hero_first_loan",
+    "name": "Первый кредит «Юный Богатырь»",
+    "type": "loan",
+    "min_amount": 10000,
+    "max_amount": 100000,
+    "term_months": 12,
+    "interest_rate": 18.0,
+    "currency": "золотых",
+    "description": "Первый кредит для молодых героев — первый шаг в мир финансов.",
+    "text": "Первый кредит «Юный Богатырь» — первый шаг в мир финансов для молодых героев. Требуется поручительство взрослого. Ставка 18% годовых, срок 12 месяцев.",
+    "eligibility": {
+      "min_age": 16,
+      "max_age": 25,
+      "min_income": null,
+      "citizenship_allowed": ["Великое Княжество"]
+    }
+  },
+  {
+    "id": "magic_insurance",
+    "name": "Страховка «От Злого Колдуна»",
+    "type": "insurance",
+    "min_amount": 2000,
+    "max_amount": 2000,
+    "term_months": 12,
+    "interest_rate": 0,
+    "currency": "золотых",
+    "description": "Страховка от заклятий, порчи и пропажи волшебных артефактов.",
+    "text": "Страховка «От Злого Колдуна» — защита от заклятий, порчи и пропажи артефактов. Стоимость — 2000 золотых в год.",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": null,
+      "min_income": null,
+      "citizenship_allowed": ["Великое Княжество", "Шамаханское царство", "Лесное Ханство"]
+    }
+  },
+  {
+    "id": "royal_gold_deposit",
+    "name": "Вклад «Царская Золотая Сокровищница»",
+    "type": "deposit",
+    "min_amount": 500000,
+    "max_amount": 5000000,
+    "term_months": 24,
+    "interest_rate": 15.5,
+    "currency": "золотых",
+    "description": "Эксклюзивный вклад для самых состоятельных жителей Княжества.",
+    "text": "Вклад «Царская Золотая Сокровищница» — эксклюзивный для самых состоятельных. Ставка 15.5% годовых, срок 24 месяца, сумма от 500 000 до 5 000 000 золотых.",
+    "eligibility": {
+      "min_age": 25,
+      "max_age": null,
+      "min_income": 100000,
+      "citizenship_allowed": ["Великое Княжество", "Шамаханское царство"]
+    }
+  },
+  {
+    "id": "herb_trader_account",
+    "name": "Счёт «Травница»",
+    "type": "business",
+    "min_amount": 0,
+    "max_amount": null,
+    "term_months": 0,
+    "interest_rate": 4.5,
+    "currency": "золотых",
+    "description": "Специальный счёт для владельцев лавок лечебных трав и зельеваров.",
+    "text": "Счёт «Травница» — для владельцев лавок лечебных трав и зельеваров. Ставка 4.5% годовых, без ограничений на сумму.",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": null,
+      "min_income": null,
+      "citizenship_allowed": ["Великое Княжество"]
+    }
+  },
+  {
+    "id": "dragon_egg_invest",
+    "name": "Инвестиции «Яйцо Дракона»",
+    "type": "investment",
+    "min_amount": 200000,
+    "max_amount": null,
+    "term_months": 18,
+    "interest_rate": 25.0,
+    "currency": "золотых",
+    "description": "Высокорисковые инвестиции с потенциалом вылупить дракона прибыли.",
+    "text": "Инвестиции «Яйцо Дракона» — высокорисковые с потенциалом вылупить дракона прибыли. Ставка 25% годовых, срок 18 месяцев, минимум 200 000 золотых.",
+    "eligibility": {
+      "min_age": 30,
+      "max_age": null,
+      "min_income": 90000,
+      "citizenship_allowed": ["Великое Княжество", "Шамаханское царство"]
+    }
+  },
+  {
+    "id": "kasha_savings",
+    "name": "Вклад «Каша Героя»",
+    "type": "deposit",
+    "min_amount": 5000,
+    "max_amount": 100000,
+    "term_months": 3,
+    "interest_rate": 11.0,
+    "currency": "золотых",
+    "description": "Короткий вклад для быстрой отдачи — как горячая каша после боя.",
+    "text": "Вклад «Каша Героя» — короткий вклад для быстрой отдачи, как горячая каша после боя. Ставка 11% годовых, срок 3 месяца.",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": null,
+      "min_income": null,
+      "citizenship_allowed": ["Великое Княжество"]
+    }
+  },
+  {
+    "id": "fairy_advisor_sub",
+    "name": "Подписка «Совет Феи»",
+    "type": "subscription",
+    "min_amount": 1500,
+    "max_amount": 1500,
+    "term_months": 1,
+    "interest_rate": 0,
+    "currency": "золотых",
+    "description": "Ежемесячные персонализированные советы от волшебной феи финансов.",
+    "text": "Подписка «Совет Феи» — ежемесячные советы от волшебной феи финансов. Стоимость — 1500 золотых в месяц.",
+    "eligibility": {
+      "min_age": 14,
+      "max_age": null,
+      "min_income": null,
+      "citizenship_allowed": ["Великое Княжество", "Шамаханское царство", "Лесное Ханство"]
+    }
+  },
+  {
+    "id": "pegasus_business_loan",
+    "name": "Бизнес-кредит «Пегас»",
+    "type": "loan",
+    "min_amount": 200000,
+    "max_amount": 2000000,
+    "term_months": 36,
+    "interest_rate": 14.0,
+    "currency": "золотых",
+    "description": "Кредит для масштабирования бизнеса — от лавки до империи.",
+    "text": "Бизнес-кредит «Пегас» — для масштабирования бизнеса от лавки до империи. Ставка 14% годовых, срок 36 месяцев.",
+    "eligibility": {
+      "min_age": 25,
+      "max_age": null,
+      "min_income": 60000,
+      "citizenship_allowed": ["Великое Княжество"]
+    }
+  },
+  {
+    "id": "wise_old_owl_deposit",
+    "name": "Вклад «Мудрая Сова»",
+    "type": "deposit",
+    "min_amount": 10000,
+    "max_amount": 300000,
+    "term_months": 12,
+    "interest_rate": 13.0,
+    "currency": "золотых",
+    "description": "Долгосрочный вклад с ежеквартальной капитализацией — как знания, накапливаемые годами.",
+    "text": "Вклад «Мудрая Сова» — долгосрочный с ежеквартальной капитализацией, как знания, накапливаемые годами. Ставка 13% годовых, срок 12 месяцев.",
+    "eligibility": {
+      "min_age": 40,
+      "max_age": null,
+      "min_income": null,
+      "citizenship_allowed": ["Великое Княжество"]
+    }
+  },
+  {
+    "id": "golden_feather_card",
+    "name": "Карта «Золотое Перо»",
+    "type": "card",
+    "min_amount": 0,
+    "max_amount": null,
+    "term_months": 0,
+    "interest_rate": 0,
+    "currency": "золотых",
+    "description": "Премиальная карта с кэшбэком за покупки волшебных перьев и свитков.",
+    "text": "Карта «Золотое Перо» — премиальная с кэшбэком за покупки перьев и свитков. Без процентов, но с привилегиями.",
+    "eligibility": {
+      "min_age": 21,
+      "max_age": null,
+      "min_income": 50000,
+      "citizenship_allowed": ["Великое Княжество", "Шамаханское царство"]
+    }
+  },
+  {
+    "id": "baba_yaga_mortgage",
+    "name": "Ипотека «Избушка на Курьих Ножках»",
+    "type": "mortgage",
+    "min_amount": 300000,
+    "max_amount": 3000000,
+    "term_months": 120,
+    "interest_rate": 12.0,
+    "currency": "золотых",
+    "description": "Ипотека на покупку собственной избушки с возможностью переноса раз в год.",
+    "text": "Ипотека «Избушка на Курьих Ножках» — покупка избушки с возможностью переноса раз в год. Ставка 12% годовых, срок 10 лет.",
+    "eligibility": {
+      "min_age": 25,
+      "max_age": null,
+      "min_income": 60000,
+      "citizenship_allowed": ["Великое Княжество"]
+    }
+  },
+  {
+    "id": "young_streamer_savings",
+    "name": "Сберегательный счёт «Юный Стример»",
+    "type": "savings",
+    "min_amount": 500,
+    "max_amount": 50000,
+    "term_months": 0,
+    "interest_rate": 7.0,
+    "currency": "золотых",
+    "description": "Счёт для подростков-стримеров с родительским контролем.",
+    "text": "Сберегательный счёт «Юный Стример» — для подростков-стримеров с родительским контролем. Ставка 7% годовых.",
+    "eligibility": {
+      "min_age": 12,
+      "max_age": 17,
+      "min_income": null,
+      "citizenship_allowed": ["Великое Княжество"]
+    }
+  },
+  {
+    "id": "pet_investment",
+    "name": "Инвестиции «Питомец Прибыли»",
+    "type": "investment",
+    "min_amount": 50000,
+    "max_amount": null,
+    "term_months": 6,
+    "interest_rate": 18.0,
+    "currency": "золотых",
+    "description": "Инвестиции в петушков, драконят или говорящих коней — ваш питомец станет источником дохода!",
+    "text": "Инвестиции «Питомец Прибыли» — в петушков, драконят или говорящих коней. Ваш питомец — источник дохода! Ставка 18% годовых, срок 6 месяцев.",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": null,
+      "min_income": null,
+      "citizenship_allowed": ["Великое Княжество", "Шамаханское царство", "Лесное Ханство"]
+    }
+  },
+  {
+    "id": "emergency_pouch",
+    "name": "Резервная Котомка",
+    "type": "emergency",
+    "min_amount": 0,
+    "max_amount": 200000,
+    "term_months": 0,
+    "interest_rate": 6.0,
+    "currency": "золотых",
+    "description": "Счёт для непредвиденных расходов — доступен мгновенно, без штрафов.",
+    "text": "Резервная Котомка — для непредвиденных расходов. Доступен мгновенно, без штрафов. Ставка 6% годовых.",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": null,
+      "min_income": null,
+      "citizenship_allowed": ["Великое Княжество", "Шамаханское царство", "Лесное Ханство"]
+    }
+  },
+  {
+    "id": "royal_feast_savings",
+    "name": "Целевой счёт «Княжеский Пир»",
+    "type": "goal_savings",
+    "min_amount": 20000,
+    "max_amount": 200000,
+    "term_months": 4,
+    "interest_rate": 10.0,
+    "currency": "золотых",
+    "description": "Целевой счёт для накоплений на свадьбу, турнир или бал у Князя.",
+    "text": "Целевой счёт «Княжеский Пир» — копите на свадьбу, турнир или бал у Князя. Ставка 10% годовых, срок 4 месяца.",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": null,
+      "min_income": null,
+      "citizenship_allowed": ["Великое Княжество"]
+    }
+  },
+  {
+    "id": "wisdom_vault",
+    "name": "Сейф «Сундук Мудрости»",
+    "type": "safe",
+    "min_amount": 0,
+    "max_amount": null,
+    "term_months": 0,
+    "interest_rate": 0,
+    "currency": "золотых",
+    "description": "Хранение ценностей с магической защитой от воров и завистников.",
+    "text": "Сейф «Сундук Мудрости» — хранение ценностей с магической защитой от воров и завистников. Без процентов, но с гарантией безопасности.",
+    "eligibility": {
+      "min_age": 10,
+      "max_age": null,
+      "min_income": null,
+      "citizenship_allowed": ["Великое Княжество", "Шамаханское царство", "Лесное Ханство"]
+    }
+  },
+  {
+    "id": "golden_hoof_invest",
+    "name": "Инвестиции «Золотое Копыто»",
+    "type": "investment",
+    "min_amount": 10000,
+    "max_amount": null,
+    "term_months": 8,
+    "interest_rate": 20.0,
+    "currency": "золотых",
+    "description": "Инвестиции, вдохновлённые Конём Юлием — для тех, кто верит в чудо и прибыль.",
+    "text": "Инвестиции «Золотое Копыто» — вдохновлённые Конём Юлием. Для тех, кто верит в чудо и прибыль. Ставка 20% годовых, срок 8 месяцев.",
+    "eligibility": {
+      "min_age": 14,
+      "max_age": null,
+      "min_income": null,
+      "citizenship_allowed": ["Великое Княжество"]
+    }
+  },
+  {
+    "id": "terem_pledge_loan",
+    "name": "Заем «Под Залог Терема»",
+    "type": "loan",
+    "min_amount": 100000,
+    "max_amount": 5000000,
+    "term_months": 60,
+    "interest_rate": 11.0,
+    "currency": "золотых",
+    "description": "Заем под залог терема — для ремонта, расширения или гостиницы для драконов.",
+    "text": "Заем «Под Залог Терема» — получите средства под залог терема. Идеально для ремонта или гостиницы для драконов. Ставка 11% годовых, срок 5 лет.",
+    "eligibility": {
+      "min_age": 25,
+      "max_age": null,
+      "min_income": 50000,
+      "citizenship_allowed": ["Великое Княжество"]
+    }
+  },
+  {
+    "id": "written_oath_bond",
+    "name": "Письменный Обет",
+    "type": "investment",
+    "min_amount": 300000,
+    "max_amount": null,
+    "term_months": 12,
+    "interest_rate": 8.84,
+    "currency": "золотых",
+    "description": "Вексель с фиксированной доходностью — ваш обет верности Княжеству приносит стабильный доход.",
+    "text": "Письменный Обет — вексель с фиксированной доходностью. Ваш обет верности Княжеству приносит стабильный доход. Ставка 8.84% годовых.",
+    "eligibility": {
+      "min_age": 21,
+      "max_age": null,
+      "min_income": 300000,
+      "citizenship_allowed": ["Великое Княжество"]
+    }
+  },
+  {
+    "id": "generosity_amulet_monthly",
+    "name": "Амулет Щедрости (ежемесячный)",
+    "type": "subscription",
+    "min_amount": 299,
+    "max_amount": 299,
+    "term_months": 1,
+    "interest_rate": 0,
+    "currency": "золотых",
+    "description": "Ежемесячная подписка с кэшбэком, переводами без комиссии и доступом к развлечениям.",
+    "text": "Амулет Щедрости (ежемесячный) — выгода до 2000 золотых в месяц! До 4 человек бесплатно, 5 категорий кэшбэка, переводы без комиссии до 500 000 золотых.",
+    "eligibility": {
+      "min_age": 14,
+      "max_age": null,
+      "min_income": 10000,
+      "citizenship_allowed": ["Великое Княжество"]
+    }
+  },
+  {
+    "id": "generosity_amulet_plus_monthly",
+    "name": "Амулет Щедрости+ (ежемесячный)",
+    "type": "subscription",
+    "min_amount": 599,
+    "max_amount": 599,
+    "term_months": 1,
+    "interest_rate": 0,
+    "currency": "золотых",
+    "description": "Премиум-подписка с повышенными лимитами и бонусом к ставкам по счетам.",
+    "text": "Амулет Щедрости+ (ежемесячный) — выгода до 3000 золотых в месяц! Переводы без комиссии до 1 млн золотых, +1% к ставке счёта.",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": null,
+      "min_income": 30000,
+      "citizenship_allowed": ["Великое Княжество"]
+    }
+  },
+  {
+    "id": "generosity_amulet_annual",
+    "name": "Амулет Щедрости (на год)",
+    "type": "subscription",
+    "min_amount": 2990,
+    "max_amount": 2990,
+    "term_months": 12,
+    "interest_rate": 0,
+    "currency": "золотых",
+    "description": "Годовая подписка с экономией 598 золотых и всеми привилегиями на целый год.",
+    "text": "Амулет Щедрости (на год) — годовая подписка с экономией 598 золотых! Выгода 24 000 золотых в год. Все привилегии на целый год.",
+    "eligibility": {
+      "min_age": 14,
+      "max_age": null,
+      "min_income": 10000,
+      "citizenship_allowed": ["Великое Княжество"]
+    }
+  },
+  {
+    "id": "generosity_amulet_plus_annual",
+    "name": "Амулет Щедрости+ (на год)",
+    "type": "subscription",
+    "min_amount": 5990,
+    "max_amount": 5990,
+    "term_months": 12,
+    "interest_rate": 0,
+    "currency": "золотых",
+    "description": "Премиум-подписка на год с экономией 1198 золотых и повышенными ставками.",
+    "text": "Амулет Щедрости+ (на год) — премиум-подписка с экономией 1198 золотых! Выгода 36 000 золотых в год, повышенные ставки и лимиты.",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": null,
+      "min_income": 30000,
+      "citizenship_allowed": ["Великое Княжество"]
+    }
+  }
+]

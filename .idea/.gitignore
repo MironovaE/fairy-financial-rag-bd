@@ -1,0 +1,26 @@
+# Default ignored files (IDE)
+/shelf/
+/workspace.xml
+/httpRequests/
+/mavenHomeManager.xml
+/dataSources/
+/dataSources.local.xml
+
+# IDE
+*.iml
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.env
+.env.local
+.env.*.local
+
+# ChromaDB
+chroma.sqlite3
+chroma_db/
+
+# Streamlit secrets (robust)
+**/.streamlit/secrets.toml
+secrets.toml
